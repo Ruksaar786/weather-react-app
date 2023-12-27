@@ -1,0 +1,54 @@
+.forecast-days-container {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+  padding: 30px 15px;
+  width: 90%;
+}
+
+.day-forecast {
+  text-align: center;
+}
+
+.day-forecast h3 {
+  color: rgb(238, 231, 218);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.forecast-temp-max {
+  font-weight: 700;
+}
+
+.forecast-days-container img {
+  margin: 5px;
+  width: 75px;
+}
+
+@media (max-width: 600px) {
+  .forecast-days-container {
+    flex-direction: column;
+    padding: 10px 5px;
+    width: 80%;
+  }
+
+  .day-forecast {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .day-forecast h3 {
+    font-size: 1rem;
+  }
+
+  .day-forecast p {
+    font-size: 0.8rem;
+  }
+}

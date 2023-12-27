@@ -1,38 +1,109 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
 .App {
-  text-align: center;
+  display: block;
+  margin: 40px auto;
+  /* text-align: center; */
+  max-width: 30%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  color: rgb(242, 241, 235);
+  padding: 60px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 2150px) {
+  .App {
+    max-width: 35%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1850px) {
+  .App {
+    max-width: 40%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 1650px) {
+  .App {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .App {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .App {
+    max-width: 55%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .App {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .App {
+    max-width: 65%;
+  }
+}
+
+@media (max-width: 950px) {
+  .App {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 900px) {
+  .App {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 850px) {
+  .App {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 770px) {
+  .App {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .App {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .App {
+    background-image: none;
+    margin: 0px;
+    max-width: 100%;
+  }
+
+  .app-container {
+    border-radius: 0px;
+    padding: 10px 0px;
   }
 }
