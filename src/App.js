@@ -9,11 +9,7 @@ export default function App() {
         <Weather defaultCity="Durban" />
 
         <footer>
-          This project was coded by{" "}
-          <a href="" target="_blank" rel="noopener noreferrer">
-            Ruksaar Adam
-          </a>{" "}
-          and is{" "}
+          This project was coded by Ruksaar Adam and is{" "}
           <a
             href="https://github.com/Ruksaar786/weather-react-app"
             target="_blank"
