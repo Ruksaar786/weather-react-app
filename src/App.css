@@ -10,11 +10,10 @@ body {
 }
 
 .app-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
-  color: rgb(242, 241, 235);
+  color: rgb(222, 220, 206);
   padding: 60px 0;
 }
 

@@ -1,6 +1,6 @@
 .forecast-days-container {
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(5, 5, 5, 0.3);
   border-radius: 15px;
   display: flex;
   justify-content: space-around;
@@ -14,7 +14,7 @@
 }
 
 .day-forecast h3 {
-  color: rgb(238, 231, 218);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0;
