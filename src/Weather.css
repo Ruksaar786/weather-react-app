@@ -4,7 +4,8 @@
   padding: 16px;
   border-radius: 4px;
   color: rgb(163, 163, 163);
-  background-image: url(https://static.vecteezy.com/system/resources/previews/022/448/291/non_2x/save-earth-day-poster-environment-day-nature-green-ai-generative-glossy-background-images-tree-and-water-free-photo.jpg);
+  background-image: url(https://img.freepik.com/premium-photo/pink-gradient-background-soothing-blend-soft-vibrant-pink-hues-generative-ai_208978-868.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais);
+  background-size: cover;
 }
 
 .Weather h1 {
@@ -12,7 +13,7 @@
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 
 .Weather ul {
@@ -26,7 +27,7 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
-  color: #060606;
+  color: #ffffff;
 }
 
 .Weather .temperature {
